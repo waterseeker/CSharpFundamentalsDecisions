@@ -19,7 +19,21 @@ namespace Decisions
                 Console.WriteLine("You won a new car!");
                 Console.ReadLine();
             }
-
+            else if (userValue == "2")
+            {
+                Console.WriteLine("You won a new boat!");
+                Console.ReadLine();
+            }
+            else if (userValue == "3")
+            {
+                Console.WriteLine("You won a new cat!");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Sorry, we didn't understand. You lose!");
+                Console.WriteLine();
+            }
         }
     }
 }
