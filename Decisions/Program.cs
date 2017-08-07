@@ -32,7 +32,7 @@ namespace Decisions
             else
             {
                 Console.WriteLine("Sorry, we didn't understand. You lose!");
-                Console.WriteLine();
+                Console.ReadLine();
             }
         }
     }
